@@ -1,0 +1,512 @@
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+fill = c("red", "green","blue"),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 5, cex=1,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+fill = c("red", "green","blue"),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 3, cex=1,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+fill = c("red", "green","blue"),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 3, cex=3,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+fill = c("red", "green","blue"),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 3, cex=0,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 3, cex=0,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET1 = SET1, SET2 = SET2, SET3 = SET3),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(SET2 = SET2, SET3 = SET3,SET4 = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL)
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL, main = TITLE)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL, main = "TITLE")
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización")
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características")
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características")
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1,cat.pos= 2, cat.dis=2 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1,cat.pos= 0, cat.dis=2 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 12,cat.pos= 0, cat.dis=2 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1,cat.pos= 12, cat.dis=2 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-2 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=.4 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=.1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.01 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.05 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.02 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.03 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.04 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.01 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 2, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1.3, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = .8, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = .5, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = .7, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+legend(1, 95, legend=c("Line 1", "Line 2"),
+col=c("red", "blue"), lty=1:2, cex=0.8)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.cex = 1, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.017 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.02 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.05 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.03 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.02 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.018 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Químicos = SET2, Bienes = SET3, Materiales = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Residuos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list(Bienes y sustancias = SET2, Materiales = SET3, Residuos = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Químicos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias" = SET2, Materiales = SET3, Residuos = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Químicos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 2
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 2,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Químicos peligrosos"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=.01 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos peligrosos" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Bienes y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=.01 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos peligrosos" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Bienes y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=.05 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos peligrosos" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Bienes y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos peligrosos" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4,"Bienes y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=.1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos" = SET2, "Bienes " = SET3, "Residuos " = SET4,"Materiales y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 0, cat.dis=.1 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos" = SET2, "Bienes " = SET3, "Residuos " = SET4,"Materiales y sustancias peligrosas"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos" = SET2, "Residuos" = SET3, "Bienes " = SET4,"Materiales y sustancias"=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos" = SET2, "Residuos" = SET3, "Bienes " = SET4,"Materiales y sustancias  "=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v2 <- venn.diagram(list("Químicos" = SET2, "Residuos" = SET3, "Bienes " = SET4,"Materiales y sustancias    "=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+v <- venn.diagram(list("Bienes y sustancias peligrosas" = SET2, "Materiales peligrosos" = SET3, "Residuos peligrosos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos peligrosos" )
+grid.newpage()
+grid.draw(v)
+v <- venn.diagram(list("Bienes y sustancias" = SET2, "Materiales" = SET3, "Residuos" = SET4),
+alpha = c(0.5, 0.5, 0.5), cat.pos=1, cat.cex = 1, cat.dis=-.019 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por características",main.cex = 1.5,
+sub="Químicos" )
+grid.newpage()
+grid.draw(v)
+v2 <- venn.diagram(list("Químicos" = SET2, "Residuos" = SET3, "Bienes " = SET4,"Materiales y sustancias    "=SET1 ),
+alpha = c(0.5, 0.5, 0.5,0.5), cat.pos=1, cat.cex = 1, cat.dis=0 ,cex=0,
+force.unique=T,
+filename=NULL, main = "Conceptualización por listado ofidical",main.cex = 1.5
+)
+grid.newpage()
+grid.draw(v2)
+getwd()
+read.csv("/Users/marcoyel21/Desktop/quimicos.csv")
+install.packages("knitr")
+install.packages("knitr")
+getwd()
+install.packages("kableExtra")
+install.packages("purr")
+install.packages("dyplr")
+install.packages("dplyr")
+install.packages("kableExtra")
+install.packages("kableExtra")
+install.packages("kable")
+library(kable)
+library(kableExtra)
+install.packages("knitr")
+install.packages("knitr")
+install.packages("kableExtra")
+install.packages("devtools")
+install.packages("devtools")
+get_styles()
+estilo <- style_load (https://github.com/citation-style-language/styles/blob/master/comision-economica-para-america-latina-y-el-caribe.csl)
+estilo <- style_load (/github.com/citation-style-language/styles/blob/master/comision-economica-para-america-latina-y-el-caribe.csl)
+estilo <- style_load (github.com/citation-style-language/styles/blob/master/comision-economica-para-america-latina-y-el-caribe.csl)
+library("csl")
+library(csl)
+styles()
+getstyles()
+get_styles()
+install_github("citation-style-language/styles")
+library(devtools)
+install_github("citation-style-language/styles")
+install_github("comision-economica-para-america-latina-y-el-caribe.csl")
+install_github("ropensci/csl")
+library(purr)
+install.packages("purr")
+library(rvest)
+library(xml2)
+library(tidyr)
+url <- "https://www.timeanddate.com/weather/mexico/mexico-city/hourly"
+info <- url %>% read_html() %>%
+html_nodes("td:nth-child(9) , .small , .wt-ic+ td , #wt-hbh tbody th")  %>%
+html_text()
+tabla <- matrix(info,ncol=4, byrow = TRUE)
+df <- as.data.frame(tabla)
+names(df) <- c("Time","Temp","Weather", "Chance")
+View(head(df))
+View(df)
+ls ()
+getwd()
+setwd("/Users/marcoyel21/Desktop/Inv/entrega_3")

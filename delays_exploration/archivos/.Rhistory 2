@@ -1,0 +1,6 @@
+get wd()
+getwd()
+getwd("/Users/marcoyel21/Desktop/Inv/entrega_3/archivos")
+settwd("/Users/marcoyel21/Desktop/Inv/entrega_3/archivos")
+setwd("/Users/marcoyel21/Desktop/Inv/entrega_3/archivos")
+getwd()
